@@ -1,13 +1,13 @@
 class SolidLikeARock < Formula
   desc "Swift import boundary linter — enforce Clean Architecture rules via SwiftSyntax"
   homepage "https://github.com/nenadvulic/solid-like-a-rock"
-  version "0.8.0"
+  version "0.9.0"
   license "MIT"
 
   # Universal binary (arm64 + x86_64) — works natively on Apple Silicon
   # and under Rosetta without needing `arch -arm64`.
   url "https://github.com/nenadvulic/solid-like-a-rock/releases/download/v#{version}/solid-like-a-rock-macos-universal.tar.gz"
-  sha256 "27ec5383165a91aefed9e2ad7a71356b0d80032ea4e9383673d4fd805ab21e41"
+  sha256 "0bb9417130ff88fc92d2d8894314c9ba99b22fbfb626b6069eb687e8241b1e88"
 
   def install
     bin.install "solid-like-a-rock"
